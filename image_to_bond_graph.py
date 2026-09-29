@@ -17,7 +17,7 @@ REQUIREMENTS
     pip install google-genai
     export GEMINI_API_KEY=...      (or set it in your environment)
 Get a FREE key (no credit card required) at https://aistudio.google.com/apikey
--- unlike Anthropic's/OpenAI's APIs, Google AI Studio's free tier is genuinely
+-- unlike many paid LLM APIs, Google AI Studio's free tier is genuinely
 free, but rate-limited. VERIFIED LIVE (path_c_evaluation.py's batch run,
 2026-08-13): the model this alias currently resolves to (gemini-3.6-flash)
 has a free-tier cap of only 20 requests/DAY -- much lower than an earlier
