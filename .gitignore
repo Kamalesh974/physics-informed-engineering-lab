@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+api.txt
+# runtime data
+workspace/
+app/data/
+pinn_lab/checkpoints/*
+!pinn_lab/checkpoints/.gitkeep

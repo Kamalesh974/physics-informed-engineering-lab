@@ -1,0 +1,14 @@
+torch>=2.1
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12
+pandas>=2.0
+dash>=2.17
+plotly>=5.20
+# integrated server (python -m integrated.server): BondLab's FastAPI app + this Dash app in one process
+fastapi>=0.110
+uvicorn>=0.29
+a2wsgi>=1.10
+# optional, only to load BondLab templates from this repository (app/backend):
+networkx>=3.0
+pytest>=7.0

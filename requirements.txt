@@ -1,0 +1,17 @@
+# Physics-Informed Engineering Lab (BondLab + PINNlab) -- runtime dependencies
+torch>=2.1
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12
+networkx>=3.0
+pandas>=2.0
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+a2wsgi>=1.10
+dash>=2.17
+plotly>=5.20
+pillow>=10.0
+tzdata
+# optional: photo import of hand-drawn bond graphs in BondLab (needs GEMINI_API_KEY)
+google-genai>=1.0
